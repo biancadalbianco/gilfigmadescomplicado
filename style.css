@@ -1,0 +1,53 @@
+.bg{
+    background-color: #f04688;
+}
+#butao{
+    background-color: #f04688;
+    border: 1px solid #0000;
+    color: #ffff;
+}
+#normal{
+    font-size: 18px;
+}
+#pequeno{
+    font-size: 14px;
+}
+#vaga{
+    background-color: #ffffff;
+    color: #F04688;
+    border: 0;
+    border-radius: 50px;
+    padding: 17px 40px;
+    text-decoration: none;
+    transition: 0.2s ease-out; 
+}
+#vaga:hover{
+    color: #fff;
+    background-color: cyan;
+
+}
+.row{
+    margin-right: 0;
+}
+#p-footer {
+    font-weight: 500;
+}
+#p-footer:hover{
+    cursor: pointer;
+}
+footer{
+    padding-top: 10px;
+}
+#h2-footer {
+    color: #3F3F3F;
+    font-size: 14px;
+}
+@media (max-width: 480px) {
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+    footer {
+        padding-top: 10px;
+    }
+}
